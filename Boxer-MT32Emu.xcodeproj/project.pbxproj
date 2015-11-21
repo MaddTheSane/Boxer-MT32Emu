@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55568B2C1C000004008229A3 /* Analog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55568B2A1C000004008229A3 /* Analog.cpp */; };
+		55568B2D1C000004008229A3 /* Analog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55568B2A1C000004008229A3 /* Analog.cpp */; };
+		55568B2E1C000004008229A3 /* Analog.h in Headers */ = {isa = PBXBuildFile; fileRef = 55568B2B1C000004008229A3 /* Analog.h */; };
+		55568B2F1C000004008229A3 /* Analog.h in Headers */ = {isa = PBXBuildFile; fileRef = 55568B2B1C000004008229A3 /* Analog.h */; };
 		9FC3FAD317E8EF1700E61362 /* LA32FloatWaveGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FC3FAD117E8EF1600E61362 /* LA32FloatWaveGenerator.cpp */; };
 		9FC3FAD417E8EF1700E61362 /* LA32FloatWaveGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FC3FAD217E8EF1600E61362 /* LA32FloatWaveGenerator.h */; };
 		9FD865FD16EB66AF00352A00 /* BReverbModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FD865C516EB66AF00352A00 /* BReverbModel.cpp */; };
@@ -83,6 +87,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55568B2A1C000004008229A3 /* Analog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Analog.cpp; sourceTree = "<group>"; };
+		55568B2B1C000004008229A3 /* Analog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Analog.h; sourceTree = "<group>"; };
 		9F41EE22142B585B0029CA47 /* MT32Emu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MT32Emu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F41EE23142B585B0029CA47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F8B8B0A142B57830077B6F2 /* libmt32emu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmt32emu.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,6 +181,8 @@
 			isa = PBXGroup;
 			children = (
 				9FC3FAD217E8EF1600E61362 /* LA32FloatWaveGenerator.h */,
+				55568B2A1C000004008229A3 /* Analog.cpp */,
+				55568B2B1C000004008229A3 /* Analog.h */,
 				9FD865C516EB66AF00352A00 /* BReverbModel.cpp */,
 				9FD865C616EB66AF00352A00 /* BReverbModel.h */,
 				9FD865C916EB66AF00352A00 /* File.cpp */,
@@ -247,6 +255,7 @@
 				9FD8664416EB66AF00352A00 /* ROMInfo.h in Headers */,
 				9FD8664F16EB66AF00352A00 /* Synth.h in Headers */,
 				9FD8660016EB66AF00352A00 /* BReverbModel.h in Headers */,
+				55568B2F1C000004008229A3 /* Analog.h in Headers */,
 				9FD8662E16EB66AF00352A00 /* mmath.h in Headers */,
 				9FD8663C16EB66AF00352A00 /* PartialManager.h in Headers */,
 				9FD8664916EB66AF00352A00 /* sha1.h in Headers */,
@@ -266,6 +275,7 @@
 				9FD8662F16EB66AF00352A00 /* mt32emu.h in Headers */,
 				9FD8663316EB66AF00352A00 /* Part.h in Headers */,
 				9FD8663716EB66AF00352A00 /* Partial.h in Headers */,
+				55568B2E1C000004008229A3 /* Analog.h in Headers */,
 				9FD8663B16EB66AF00352A00 /* PartialManager.h in Headers */,
 				9FD8663F16EB66AF00352A00 /* Poly.h in Headers */,
 				9FD8664316EB66AF00352A00 /* ROMInfo.h in Headers */,
@@ -365,6 +375,7 @@
 				9FD8660A16EB66AF00352A00 /* FileStream.cpp in Sources */,
 				9FD8662216EB66AF00352A00 /* LA32Ramp.cpp in Sources */,
 				9FD8662616EB66AF00352A00 /* LA32WaveGenerator.cpp in Sources */,
+				55568B2D1C000004008229A3 /* Analog.cpp in Sources */,
 				9FD8663216EB66AF00352A00 /* Part.cpp in Sources */,
 				9FD8663616EB66AF00352A00 /* Partial.cpp in Sources */,
 				9FD8663A16EB66AF00352A00 /* PartialManager.cpp in Sources */,
@@ -396,6 +407,7 @@
 				9FD8664616EB66AF00352A00 /* sha1.cpp in Sources */,
 				9FD8664C16EB66AF00352A00 /* Synth.cpp in Sources */,
 				9FD8665016EB66AF00352A00 /* Tables.cpp in Sources */,
+				55568B2C1C000004008229A3 /* Analog.cpp in Sources */,
 				9FD8665416EB66AF00352A00 /* TVA.cpp in Sources */,
 				9FD8665816EB66AF00352A00 /* TVF.cpp in Sources */,
 				9FD8665C16EB66AF00352A00 /* TVP.cpp in Sources */,
